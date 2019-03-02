@@ -14,7 +14,7 @@ spec:
         app: podinfo
     spec:
       containers:
-        - name: podinfo
-          image: quay.io/stefanprodan/podinfo:1.0.0
-          ports:
-            - containerPort: 3000
+      - name: podinfo
+        image: quay.io/stefanprodan/podinfo:1.4.2
+        ports:
+        - containerPort: 3000
